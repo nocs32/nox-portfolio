@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NOX PORTFOLIO PROJECT
 
-## Getting Started
+This project is my personal developer portfolio, designed to showcase my work, skills, and projects. Built with modern web technologies, the portfolio offers a clean, responsive design and features a contact form powered by EmailJS.
 
-First, run the development server:
+## 🔧 Key Features
+- **Responsive Design**: Built with Tailwind CSS and shadcn/ui, ensuring the portfolio is mobile-friendly and looks great on all screen sizes.
+- **Form Handling**: Integrated with react-hook-form and Zod for intuitive form management and validation.
+- **Contact Form**: Uses EmailJS to handle form submissions, allowing visitors to reach out directly from the website.
+- **Projects Showcase**: A section for showcasing my projects with descriptions, technologies used, and live demo links.
+- **About Me**: A personal section that highlights my background, skills, and experience in software development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Technologies Used
+- **Next.js** - Framework for building server-rendered React applications with optimized performance.
+- **Tailwind CSS** - Utility-first CSS framework for creating responsive, customizable layouts.
+- **shadcn/ui** - UI component library for building modern, accessible user interfaces.
+- **react-hook-form** - Library for handling form input and validation.
+- **Zod** - Schema-based validation library integrated with react-hook-form for robust form validation.
+- **EmailJS** - Service for sending emails directly from the client-side, used for handling contact form submissions.
+- **TypeScript** - Typed superset of JavaScript, ensuring type safety and better development experience.
